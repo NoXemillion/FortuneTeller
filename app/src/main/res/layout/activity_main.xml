@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:fontFamily="@font/cinzel"
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cinzel"
+                android:text="@string/email"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/borders"
+                android:fontFamily="@font/cinzel"
+                android:textStyle="bold"
+                android:paddingLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/cinzel"
+                android:text="@string/password"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/borders"
+                android:fontFamily="@font/cinzel"
+                android:textStyle="bold"
+                android:paddingLeft="12dp"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/cinzel"
+                android:text="@string/title"
+                android:textColor="@color/grey"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/titleEditText"
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/borders"
+                android:fontFamily="@font/cinzel"
+                android:textStyle="bold"
+                android:paddingLeft="12dp"/>
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/grey"
+                android:fontFamily="@font/cinzel"
+                android:onClick="loginButton"
+                android:text="Login"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/accountNotation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/cinzel"
+                    android:text="@string/dontHave"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/sign_up"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/cinzel"
+                    android:onClick="registerLink"
+                    android:text="@string/register"
+                    android:textColor="@color/hover"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fillInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/fillInfo"
+            android:fontFamily="@font/cinzel"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:textColor="@color/hover"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

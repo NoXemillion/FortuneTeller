@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#515151</color>
+    <color name="hover">#8A8A8A</color>
+    <color name="light_blue">#ADD8E6</color>
+    <color name="blue">#1D3B45</color>
+    <color name="zodiac_color">#4437A6</color>
+    <color name="zodiac_disc">#6469CD</color>
+    <color name="button">#406F96</color>
+</resources>

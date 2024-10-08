@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_layout2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cinzel"
+            android:gravity="center"
+            android:text="@string/choose"
+            android:textColor="@color/blue"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:shadowColor="#80000000"
+            android:shadowDx="7"
+            android:shadowDy="8"
+            android:shadowRadius="4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders">
+
+                <ImageView
+                    android:id="@+id/aquarius"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/aquarius" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/aries"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/aries" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/cancer"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/cancer" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders">
+
+                <ImageView
+                    android:id="@+id/capricorn"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/capricorn" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/gemini"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/gemini" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/leo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/leo" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders">
+
+                <ImageView
+                    android:id="@+id/libra"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/libra" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/pisces"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/pisces" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/sagittarius"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/sagittarius" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders">
+
+                <ImageView
+                    android:id="@+id/scorpio"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/scorpio" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/taurus"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/taurus" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="6dp"
+                android:background="@drawable/borders"
+                android:layout_marginLeft="20dp">
+
+                <ImageView
+                    android:id="@+id/virgo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="12dp"
+                    android:background="@drawable/virgo" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
